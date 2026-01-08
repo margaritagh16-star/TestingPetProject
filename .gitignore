@@ -1,0 +1,16 @@
+venv/
+.idea/.gitignore/
+.idea/misc.xml/
+.idea/modules.xml/
+.idea/vcs.xml/
+__pycache__/
+pages/__pycache__/
+tests/__pycache__/
+# IDE
+.idea/
+*.iml
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
