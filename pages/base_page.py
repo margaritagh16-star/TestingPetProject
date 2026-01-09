@@ -10,3 +10,6 @@ class BasePage:
 
     def get_text(self, locator):
         return self.page.locator(locator).text_content()
+
+    def is_visible(self, locator):
+        return self.page.locator(locator).is_visible()
